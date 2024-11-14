@@ -1,0 +1,83 @@
+/* Add application styles & imports to this file! */
+.login-box, .register-box {
+  width: 360px;
+  margin: 7% auto;
+}
+
+.login-card-body, .register-card-body {
+  background: #ffffff;
+  padding: 20px;
+  border-top: 0;
+  color: #666;
+}
+
+.login-box-msg, .register-box-msg {
+  margin: 0;
+  text-align: center;
+  padding: 0 20px 20px;
+}
+
+/* AdminLTE overrides */
+.content-wrapper {
+  min-height: calc(100vh - 57px);
+  background-color: #f4f6f9;
+}
+
+.main-header {
+  margin-left: 250px;
+}
+
+.main-footer {
+  margin-left: 250px;
+  padding: 1rem;
+  background-color: #fff;
+  border-top: 1px solid #dee2e6;
+}
+
+@media (max-width: 991.98px) {
+  .main-header, .main-footer {
+    margin-left: 0;
+  }
+}
+
+/* Landing page styles */
+.landing-page .navbar {
+  padding: 1rem 0;
+}
+
+.landing-page .hero {
+  padding: 100px 0;
+}
+
+.landing-page .card-price {
+  font-size: 2.5rem;
+  margin: 1rem 0;
+}
+
+.landing-page .card-price span {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.landing-page .feature-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #007bff;
+}
+
+.landing-page footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.landing-page footer a:hover {
+  color: #007bff;
+}
+
+.landing-page .nav-link {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.landing-page .navbar-brand {
+  font-size: 1.5rem;
+}
